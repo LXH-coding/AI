@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepSeek AI 对话</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #chat-box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            height: 300px;
+            overflow-y: scroll;
+        }
+        #input-box {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="chat-box"></div>
+    <div id="input-box">
+        <input type="text" id="user-input" placeholder="输入你的消息">
+        <button onclick="sendMessage()">发送</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
